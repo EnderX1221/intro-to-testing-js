@@ -40,3 +40,9 @@ describe("sayHello", function () {
         expect(sayHello ("Alex")).toBe(("Hello, Alex!"))
     });
 });
+//Test 5
+describe("sayHello",function () {
+    it('should return Hello, Pat!', function () {
+        expect(sayHello("Pat")).toBe("Hello, Pat!")
+    });
+});
