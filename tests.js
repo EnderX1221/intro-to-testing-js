@@ -20,11 +20,17 @@ it("should be a defined function", function () {
 });
 });
 //Test 2
-describe("sayHello", function (){
+describe("sayHello", function () {
     it('should be a defined function', function () {
         expect(typeof sayHello).toBe("function");
     });
     it('should return a string when', function () {
-expect(typeof sayHello()).toBe("string")
+        expect(typeof sayHello()).toBe("string")
+    });
+});
+//Test 3
+describe("sayHello", function () {
+it("should return Hello, Jane!", function () {
+expect(sayHello ("Jane")).toBe(("Hello, Jane!"))
     });
 });
