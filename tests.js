@@ -19,3 +19,12 @@ it("should be a defined function", function () {
     expect(typeof sayHello).toBe("function");
 });
 });
+//Test 2
+describe("sayHello", function (){
+    it('should be a defined function', function () {
+        expect(typeof sayHello).toBe("function");
+    });
+    it('should return a string when', function () {
+expect(typeof sayHello()).toBe("string")
+    });
+});
